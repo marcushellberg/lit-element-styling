@@ -12,6 +12,9 @@ const flowDefaults = require('./webpack.generated.js');
  * To change the webpack config, add a new configuration object in
  * the merge arguments below:
  */
+// flowDefaults.module.rules.filter(rule => rule.test.test('.css')).forEach(rule => {
+//   rule.use = ['style-loader', 'css-loader'];
+// });
 module.exports = merge(flowDefaults,
   // Override default configuration
   // {

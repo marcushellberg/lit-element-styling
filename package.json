@@ -52,28 +52,30 @@
     "open": "^7.2.1"
   },
   "devDependencies": {
+    "@types/validator": "13.1.0",
+    "awesome-typescript-loader": "5.2.1",
+    "chokidar": "^3.4.0",
+    "compression-webpack-plugin": "4.0.1",
+    "copy-webpack-plugin": "5.1.2",
+    "css-loader": "4.2.1",
+    "extract-loader": "5.1.0",
+    "html-webpack-plugin": "3.2.0",
+    "lit-css-loader": "0.0.4",
+    "lit-element": "2.3.1",
+    "lit-html": "1.2.1",
+    "progress-webpack-plugin": "0.0.24",
+    "raw-loader": "4.0.0",
+    "script-ext-html-webpack-plugin": "2.1.4",
+    "style-loader": "^2.0.0",
+    "terser": "4.6.7",
+    "typescript": "4.0.3",
+    "typescript-plugin-css-modules": "^3.0.1",
+    "validator": "13.1.17",
     "webpack": "4.42.0",
+    "webpack-babel-multi-target-plugin": "2.3.3",
     "webpack-cli": "3.3.11",
     "webpack-dev-server": "3.11.0",
-    "webpack-babel-multi-target-plugin": "2.3.3",
-    "copy-webpack-plugin": "5.1.2",
-    "webpack-merge": "4.2.2",
-    "raw-loader": "4.0.0",
-    "compression-webpack-plugin": "4.0.1",
-    "html-webpack-plugin": "3.2.0",
-    "script-ext-html-webpack-plugin": "2.1.4",
-    "awesome-typescript-loader": "5.2.1",
-    "typescript": "4.0.3",
-    "terser": "4.6.7",
-    "progress-webpack-plugin": "0.0.24",
-    "lit-element": "2.3.1",
-    "chokidar": "^3.4.0",
-    "validator": "13.1.17",
-    "lit-html": "1.2.1",
-    "@types/validator": "13.1.0",
-    "css-loader": "4.2.1",
-    "lit-css-loader": "0.0.4",
-    "extract-loader": "5.1.0"
+    "webpack-merge": "4.2.2"
   },
   "vaadin": {
     "dependencies": {
@@ -149,6 +151,6 @@
       "lit-css-loader": "0.0.4",
       "extract-loader": "5.1.0"
     },
-    "hash": "c282ac5c6fa95b047758738524b9ff1f46d7a180907c0804f29b6f933c09f337"
+    "hash": "fecc96925a95b09f5f3d7707a7ee23370e873da71922ee2f4ce70a9913e51455"
   }
 }
