@@ -14,7 +14,8 @@ export class OneView extends LitElement {
 
   render() {
     return html`
-      <p>Content placeholder</p>
+      <p>Here's some text</p>
+
       <child-component></child-component>
 
       <div class="warning">Here be dragons</div>
