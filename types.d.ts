@@ -1,4 +1,5 @@
-declare module '*.css' {
-  const content: string;
+declare module "*.css" {
+  import { CSSResult } from "lit-element";
+  const content: CSSResult;
   export default content;
 }
