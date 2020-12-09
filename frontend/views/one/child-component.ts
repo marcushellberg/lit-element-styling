@@ -6,12 +6,16 @@ export class ChildComponent extends LitElement {
     :host {
       display: block;
     }
+
+    p {
+      color: var(--my-color, blue);
+    }
   `;
 
   render() {
     return html`
       <p>This is a child component</p>
-      <button>It has a button</button>
+      <button part="button">It has a button</button>
     `;
   }
 }

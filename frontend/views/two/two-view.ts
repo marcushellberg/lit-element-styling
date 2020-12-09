@@ -1,15 +1,17 @@
 import { css, customElement, html, LitElement } from "lit-element";
+import sharedStyles from "../../shared.css";
 
 @customElement("two-view")
 export class TwoView extends LitElement {
-  static get styles() {
-    return css`
+  static styles = [
+    sharedStyles,
+    css`
       :host {
         display: block;
         padding: 12px;
       }
-    `;
-  }
+    `,
+  ];
 
   render() {
     return html`
