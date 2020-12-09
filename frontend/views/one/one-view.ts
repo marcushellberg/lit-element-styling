@@ -1,5 +1,6 @@
 import "./child-component";
 import { css, customElement, html, LitElement } from "lit-element";
+import "@vaadin/vaadin-text-field";
 
 @customElement("one-view")
 export class OneView extends LitElement {
@@ -17,6 +18,8 @@ export class OneView extends LitElement {
       <p>Here's some text</p>
 
       <child-component></child-component>
+
+      <vaadin-text-field label="Enter some text"></vaadin-text-field>
 
       <div class="warning">Here be dragons</div>
     `;
